@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-family: "Roboto Condensed", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+}
+
+.navsection{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+    height: 70px;
+    align-items: center;
+    background-color: rgb(42, 215, 42);
+    color: black;
+    font-size: large;
+}
+.sidebarsection{
+    border: 1px solid black;
+    width: 100%;
+    max-width: 20%;
+    height: 95vh;
+    padding: 10px;
+    background-color: rgb(201, 215, 210);
+}
+.sidebarsection ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-weight: 500;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.sidelogin{
+    display: flex;
+    width: 100%;
+}
+.loginsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(111, 114, 114);
+    width: 100%;
+    border: 1px solid red;
+    color: white;
+}
+.authform{
+    margin-top: -260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 50%;
+    width: 100%;
+    gap: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.authform input{
+    width: 100%;
+    max-width: 60%;
+    height: 1.6rem;
+    border-radius: 5px ;
+    outline: none;
+    border: none;
+    padding: 10px;
+
+}
+.authform label{
+    width: 100%;
+    max-width: 55%;
+}
+.authform button{
+    margin-top: 10px;
+    width: 30%;
+    background-color: rgb(16, 79, 204);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 0.94rem;
+}
+.firmsection{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   background-color: rgb(175, 241, 200);
+    
+}
+.tableform{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid rgb(35, 235, 35);
+    max-width: 40%;
+    padding: 20px;
+    max-height: 90%;
+    gap: 10px;
+    font-size: 1.2rem;
+}
+.tableform input{
+    height: 2rem;
+    padding: 5px;
+
+}
+.tableform button{
+    width: 70%;
+    margin: auto;
+    height: 2.5rem;
+    cursor: pointer;
+    color:white;
+    outline: none;
+    border: none;
+    border-radius: 7px ;
+    background-color: rgb(46, 155, 46);
+}
+
+
+.productsection{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   background-color: rgb(161, 162, 180);
+    
+}
+.protableform{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid rgb(125, 38, 88);
+    max-width: 40%;
+    padding: 20px;
+    max-height: 90%;
+    gap: 10px;
+    font-size: 1.2rem;
+}
+.protableform input{
+    height: 2rem;
+    padding: 5px;
+
+}
+.protableform button{
+    width: 70%;
+    margin: auto;
+    height: 2.5rem;
+    cursor: pointer;
+    color:white;
+    outline: none;
+    border: none;
+    border-radius: 7px ;
+    background-color: rgb(46, 155, 46);
+}
+
+.category {
+  margin-bottom: 10px;
+}
+
+.category-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.check-container {
+  display: flex;
+  gap: 20px;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.checkbox-item input {
+  cursor: pointer;
+}
+
+.checkbox-item:hover {
+  background-color: #f2f2f2;
+}
+
+.region-container {
+  display: flex;
+  gap: 20px;
+}
+
+.region-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+.region-item input {
+  cursor: pointer;
+}
+
+.region-item:hover {
+  background-color: #f2f2f2;
+}
+
+.radio-field{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
